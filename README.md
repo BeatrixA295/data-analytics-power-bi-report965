@@ -7,7 +7,7 @@ This Power BI project aims to provide insights and analytics for a medium-sized 
 - [Table of Contents](#table-of-contents)
 - [Overview](#Overview)
 - [Installation instructions](#installation-instructions)
-- [Loading the Sales Data]((https://github.com/Jkswm/data-analytics-power-bi-report965/edit/main/README.md#loading-the-sales-data))
+- [[Loading the Sales Data](https://github.com/Jkswm/data-analytics-power-bi-report965/blob/main/README.md#loading-the-sales-data)]
 - [File structure of project](#File-structure-of-project)
 - [License](#license)
 ``````
