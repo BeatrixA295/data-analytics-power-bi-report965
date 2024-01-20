@@ -3,7 +3,7 @@
 This Power BI project aims to provide insights and analytics for a medium-sized international retailer who want to elevate their business intelligence practices. It includes visualizations and dashboards to help stakeholders make informed decisions based on key metrics derived from sales data.
 ## Table of Contents
 ``````
-- [Project Title](#/guides/content/editing-an-existing-page)project-title)
+- [Project Title](#Power-BI-Project-README)
 - [Table of Contents](#table-of-contents)
 - [Overview](#Overview)
 - [Installation instructions](#installation-instructions)
