@@ -83,8 +83,14 @@ Dax used to calculate the Total Orders which was then formatted into a Headlines
 Total Orders = COUNTROWS(Orders)
 ```
 **Revenue Trending Line Graph** 
-This visualisation gives C-Suite executives insight into how the revenue has changed over time so alllows them to do perormance analysis.
- 
+This visualisation gives C-Suite executives insight into how the revenue has changed over time so alllows them to do performance analysis.
+A slicer was added so you can see the differences in Total revenue, orders and profit.
+ ![Revenue Trending Line](<Revenue Trending Line.png>)
+
+
+ **KPI'S**
+ These visualisations give a general idea of whether the targets set financially were achieved on a quarterly basis.
+ ![KPI](<KPI.png>)
 
 ### 2. Customer Detail
 The Customer Detail section offers in-depth analysis of customer behavior and demographics. Visualizations include customer segmentation, purchase patterns, and geographic distribution of customers.
