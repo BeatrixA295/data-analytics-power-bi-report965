@@ -62,29 +62,41 @@ Used Time intelligence functions such as `WEEKDAY`,`QUARTER`,`STARTOFQUARTER` to
 **Creating Hierachies**
 These date columns were then used to form a Date Hierarchy and also created a Geography hierachy to enhance mapping capabilities. Hierachies allow users to drill down into detailed levels of data or drill up to higher levels of aggregation with ease, meaning they can focus on the information they require only.
 
-![Alt text](<Date Hierarchy.png>)
-![Alt text](<Geography Hierarchy.png>)
+![Date Hierachy](<Date Hierarchy.png>)
+![Geography Hierachy](<Geography Hierarchy.png>)
 
 ## Report Breakdown
 ### 1. Executive Summary
 This section provides a high-level overview of the company's performance, including key metrics such as total revenue, profit, and order volume. Visualizations in this section offer insights into quarterly performance trends and year-to-date comparisons.
-![Alt text](<Executive Summary.png>)
+![Executive Summary](<Executive Summary.png>)
 
-The Headlines visuals 
+**Card Visuals**
+The Headline visuals are created to show  a quick snapshot of the overall performance (Total Orders, Total Revenue, etc) and scale of the business.
 
+Dax used to calculate the Total Revenue which was then formatted into a Headlines visual.
+```dax
+Total Revenue = SUMX ( Orders, Orders[Product Quantity] * RELATED ( Products[Sale Price] ) )
+```
+Dax used to calculate the Total Orders which was then formatted into a Headlines visual.
+
+```dax
+Total Orders = COUNTROWS(Orders)
+```
+**Revenue Trending Line Graph** 
+This visualisation gives C-Suite executives insight into how the revenue has changed over time so alllows them to do perormance analysis.
  
 
 ### 2. Customer Detail
 The Customer Detail section offers in-depth analysis of customer behavior and demographics. Visualizations include customer segmentation, purchase patterns, and geographic distribution of customers.
-![Alt text](<Customer Detail.png>)
+![Customer Detail](<Customer Detail.png>)
 
 ### 3. Product Detail
 In the Product Detail section, stakeholders can explore detailed insights into product performance, including top-selling products, revenue contribution by product category, and trends over time. Visualizations help identify product trends and inform inventory management decisions.
-![Alt text](<Product Detail.png>)
+![Product Detail](<Product Detail.png>)
 
 ### 4. Stores Map
 The Stores Map section offers a geographical view of store locations and their performance metrics. Users can visualize store sales, profitability, and customer distribution on an interactive map.
-![Alt text](<Stores map.png>)
+![Stores Map](<Stores map.png>)
 
 ## Getting Started
 Open Dashboard: Open the provided Power BI (.pbix) file using Power BI Desktop.
