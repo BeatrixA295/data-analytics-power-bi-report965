@@ -120,7 +120,7 @@ In the Product Detail section, users can explore detailed insights into product 
 
 **Area Chart**
 ### 4. Stores Map
-The Stores Map section offers a geographical view of store locations and their performance metrics. Users can visualize store sales, profitability, and customer distribution on an interactive map.
+The Stores Map section offers a geographical view of store locations and their performance metrics. Users can visualize store sales, profitability, and customer distribution on an interactive map. Map also has drill down functionality so can access data from Store location.
 ![Stores Map](<Stores map.png>)
 
 ## Getting Started
